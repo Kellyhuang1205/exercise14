@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 10px 0;
     text-align: left;
-    text-decoration: upperline;
+    text-decoration: overline;
     text-shadow: 3px 3px #ffcccc; /* 粉色陰影 */
 }
 
