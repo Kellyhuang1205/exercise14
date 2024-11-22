@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 10px 0;
     text-align: left;
-    box-shadow: 2px 2px #ffcccc; /* 粉色陰影 */
+    box-shadow: 4px 4px #ffcccc; /* 粉色陰影 */
 }
 
 /* Heading 1 上方線條 */
