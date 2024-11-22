@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.heading1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px #ffcccc; 
+    border-bottom: 4px solid black; 
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.heading2 {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    border: 2px solid yellow; 
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.heading3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline; 
+    text-align: right;
+    margin: 0;
+    margin-top: 20px;
+}
