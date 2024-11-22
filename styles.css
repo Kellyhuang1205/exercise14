@@ -22,7 +22,7 @@ body {
     position: absolute;
     top: -14px; /* 線條位於文字正上方 */
     left: 0;
-    width: 50%; /* 線條固定長度 */
+    width: 25%; /* 線條固定長度 */
     height: 4px; /* 線條厚度 */
     background-color: black; /* 黑色線條 */
     box-shadow: 3px 3px 0px #ffcccc; /* 添加右下粉色陰影 */
