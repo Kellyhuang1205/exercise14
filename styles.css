@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 10px 0;
     text-align: left;
-    box-shadow: 2px 2px 4px #ffcccc; /* 粉色陰影 */
+    box-shadow: 2px 2px #ffcccc; /* 粉色陰影 */
 }
 
 /* Heading 1 上方線條 */
@@ -26,7 +26,7 @@ body {
     width: 100px; /* 線條固定長度 */
     height: 4px; /* 線條厚度 */
     background-color: black; /* 黑色線條 */
-    box-shadow: 2px 2px 4px #ffcccc; /* 粉色右下陰影 */
+    box-shadow: 2px 2px #ffcccc; /* 粉色右下陰影 */
 }
 
 /* Heading 2 外框容器 */
