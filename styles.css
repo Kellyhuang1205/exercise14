@@ -22,7 +22,7 @@ body {
     position: absolute;
     top: -10px; /* 線條位於文字正上方 */
     left: 0;
-    width: 100px; /* 線條長度固定，不延續到最後 */
+    width: 50px; /* 線條固定長度 */
     height: 4px;
     background-color: black;
     box-shadow: 4px 4px 0 #ffcccc; /* 粉色右下陰影 */
@@ -31,11 +31,12 @@ body {
 /* Heading 2 外框容器 */
 .heading2-container {
     display: inline-block;
-    margin-top: 20px;
-    border: 2px solid black; /* 黑框僅包住 Heading 2 */
-    background-color: yellow; /* 黃色背景只覆蓋黑框 */
     position: relative;
-    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid black; /* 黑框僅包住文字部分 */
+    padding: 5px; /* 確保內部有適當間距 */
+    box-shadow: 4px 4px 0 yellow; /* 黃色背景作為黑框的外部陰影 */
+    background-color: white; /* 保持內部為白色 */
 }
 
 /* Heading 2 樣式 */
@@ -53,7 +54,7 @@ body {
     color: black;
     text-decoration: underline;
     text-align: right;
-    margin-top: -20px; /* 向上移動，與黑框右側對齊 */
+    margin-top: -20px; /* 向上移動，與 Heading 2 黑框對齊 */
     position: relative;
 }
 
