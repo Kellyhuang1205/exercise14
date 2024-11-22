@@ -12,16 +12,16 @@ body {
     color: black;
     position: relative;
     margin: 0;
-    padding-top: 20px;
+    padding: 10px 0;
 }
 
 /* Heading 1 上方線條 */
 .heading1::before {
     content: '';
     position: absolute;
-    top: 0; /* 線條位於文字上方 */
+    top: 0; /* 線條位於文字正上方 */
     left: 0;
-    width: 50%; /* 線條不延續到文字最後 */
+    width: 100px; /* 線條長度固定，不延續到最後 */
     height: 4px;
     background-color: black;
     box-shadow: 4px 4px 0 #ffcccc; /* 粉色右下陰影 */
@@ -30,11 +30,11 @@ body {
 /* Heading 2 外框容器 */
 .heading2-container {
     display: inline-block;
-    margin-top: 10px;
-    border: 2px solid black; /* 黑色外框只包住 Heading 2 */
-    padding: 5px;
-    background-color: yellow; /* 黃色背景僅外框內 */
+    margin-top: 20px;
+    border: 2px solid black; /* 黑框僅包住 Heading 2 */
+    background-color: yellow; /* 黃色背景只覆蓋黑框 */
     position: relative;
+    padding: 5px;
 }
 
 /* Heading 2 樣式 */
@@ -43,7 +43,7 @@ body {
     font-style: italic;
     color: black;
     margin: 0;
-    background: none; /* 確保背景不影響黑框 */
+    background: none; /* 確保背景僅外框內部 */
 }
 
 /* Heading 3 樣式 */
@@ -53,7 +53,7 @@ body {
     color: black;
     text-decoration: underline;
     text-align: right;
-    margin-top: -20px; /* 向上移動，緊貼黑框右側 */
+    margin-top: -20px; /* 向上移動，與黑框靠近 */
     position: relative;
 }
 
