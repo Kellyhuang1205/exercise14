@@ -1,60 +1,34 @@
-/* 全域樣式 */
+/* General reset */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    padding: 0;
+    line-height: 1.6;
 }
 
-/* Heading 1 樣式 */
 .heading1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: black;
-    position: relative;
-    margin: 0;
-    padding: 10px 0;
-    text-align: left;
-    box-shadow: 4px 4px 0 #ffcccc; /* 粉色右下陰影 */
-}
-
-/* Heading 1 上方線條 */
-.heading1::before {
-    content: '';
-    position: absolute;
-    top: -10px; /* 線條位於文字正上方 */
-    left: 0;
-    width: 50px; /* 線條固定長度 */
-    height: 4px;
-    background-color: black;
-    box-shadow: 4px 4px 0 #ffcccc; /* 粉色右下陰影 */
-}
-
-/* Heading 2 外框容器 */
-.heading2-container {
-    display: inline-block;
-    position: relative;
-    margin-top: 20px;
-    padding: 5px; /* 內部間距 */
-    border: 2px solid black; /* 黑框僅包住文字部分 */
-    box-shadow: 4px 4px 0 yellow; /* 黃色框線為黑框外圍 */
-    background-color: white; /* 保持內部為白色 */
-}
-
-/* Heading 2 樣式 */
-.heading2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-    margin: 0;
-}
-
-/* Heading 3 樣式 */
-.heading3 {
-    font-size: 18px;
+    font-size: 2em;
     font-weight: bold;
     color: black;
     text-decoration: underline;
-    text-align: right;
-    margin-top: -20px; /* 向上移動，與 Heading 2 黑框靠近 */
-    position: relative;
+    text-shadow: 2px 2px 2px pink;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
 }
+
+.heading2 {
+    font-size: 1.5em;
+    font-style: italic;
+    border: 2px solid yellow;
+    padding: 10px;
+    display: inline-block;
+}
+
+.heading3 {
+    font-size: 1em;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+}
+
