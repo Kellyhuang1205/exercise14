@@ -11,16 +11,18 @@ body {
     font-weight: bold;
     color: black;
     text-shadow: 2px 2px 0 #ffcccc; /* 粉色陰影 */
-    border-bottom: 4px solid black; /* 底部黑色線 */
-    padding-bottom: 5px;
+    border-top: 4px solid black; /* 黑色線移到文字上方 */
+    padding-top: 10px;
     margin: 0;
 }
 
 /* Heading 2 外框容器 */
 .heading2-container {
-    border: 2px solid black; /* 黑色外框 */
     display: inline-block;
     margin-top: 10px;
+    border: 2px solid black; /* 黑色外框只包住 Heading 2 */
+    padding: 5px;
+    background-color: yellow; /* 黃色背景僅外框內 */
     position: relative;
 }
 
@@ -29,12 +31,8 @@ body {
     font-size: 24px;
     font-style: italic;
     color: black;
-    background-color: yellow; /* 黃色背景 */
-    padding: 5px;
     margin: 0;
-    display: inline-block;
-    position: relative;
-    z-index: 1; /* 保證黑框和背景正確顯示 */
+    background: none; /* 確保背景不影響黑框 */
 }
 
 /* Heading 3 樣式 */
@@ -44,8 +42,7 @@ body {
     color: black;
     text-decoration: underline;
     text-align: right;
-    margin-top: -20px; /* 向上移動 */
+    margin-top: -20px; /* 向上移動，緊貼黑框右側 */
     position: relative;
-    right: 0;
 }
 
