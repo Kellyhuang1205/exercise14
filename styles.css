@@ -29,17 +29,15 @@ body {
     box-shadow: 2px 2px #ffcccc; /* 粉色右下陰影 */
 }
 
-/* Heading 2 外框容器 */
 .heading2-container {
-    display: inline-block;
-    position: relative;
+    display: block; /* 讓元素變成 block，佔滿父元素的寬度 */
+    width: 100%; /* 設置寬度為 100% */
     margin-top: 20px;
-    padding: 5px; /* 內部間距 */
-    border: 2px solid black; /* 黑框僅包住文字部分 */
-    box-shadow: 0 0 8px 4px yellow; /* 黃色陰影完全包含黑色外框 */
-    background-color: white; /* 保持內部為白色 */
+    padding: 5px; 
+    border: 2px solid black; 
+    box-shadow: 0 0 8px 4px yellow; 
+    background-color: white; 
 }
-
 
 /* Heading 2 樣式 */
 .heading2 {
