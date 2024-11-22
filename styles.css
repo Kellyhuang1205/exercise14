@@ -1,6 +1,6 @@
 /* 全域樣式 */
 body {
-    font-family: Times New Roman, Georgia;
+    font-family: Times New Roman, Georgia, serief;
     margin: 20px;
     padding: 0;
 }
@@ -31,7 +31,7 @@ body {
 
 .heading2-container {
     display: block; /* 讓元素變成 block，佔滿父元素的寬度 */
-    width: 90%; /* 設置寬度為 100% */
+    width: 100%; /* 設置寬度為 100% */
     margin-top: 20px;
     padding: 5px; 
     border: 2px solid black; 
@@ -43,7 +43,7 @@ body {
 
 /* Heading 2 樣式 */
 .heading2 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     color: black;
     margin: 0;
@@ -51,7 +51,7 @@ body {
 
 /* Heading 3 樣式 */
 .heading3 {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     color: black;
     text-decoration: underline;
