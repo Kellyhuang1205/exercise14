@@ -1,36 +1,40 @@
-
+/* 全域樣式 */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 0;
 }
 
+/* Heading 1 樣式 */
 .heading1 {
     font-size: 36px;
     font-weight: bold;
     color: black;
-    text-shadow: 2px 2px 2px #ffcccc; 
-    border-bottom: 4px solid black; 
+    text-shadow: 2px 2px 2px #ffcccc; /* 粉色陰影 */
+    border-top: 4px solid black; /* 黑色頂部線 */
+    padding-top: 10px;
     display: inline-block;
     margin-bottom: 20px;
 }
 
+/* Heading 2 樣式 */
 .heading2 {
     font-size: 24px;
     font-style: italic;
     color: black;
-    border: 2px solid yellow; 
+    border: 2px solid black; /* 黑色外框 */
+    background-color: yellow; /* 黃色背景 */
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     display: inline-block;
 }
 
-
+/* Heading 3 樣式 */
 .heading3 {
     font-size: 18px;
     font-weight: bold;
     color: black;
-    text-decoration: underline; 
+    text-decoration: underline; /* 底線 */
     text-align: right;
     margin: 0;
     margin-top: 20px;
