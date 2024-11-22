@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 10px 0;
     text-align: left;
-    text-shadow: 4px 4px #ffcccc; /* 粉色陰影 */
+    text-shadow: 3px 3px #ffcccc; /* 粉色陰影 */
 }
 
 .heading1::before {
