@@ -13,13 +13,14 @@ body {
     position: relative;
     margin: 0;
     padding: 10px 0;
+    text-align: left;
 }
 
 /* Heading 1 上方線條 */
 .heading1::before {
     content: '';
     position: absolute;
-    top: 0; /* 線條位於文字正上方 */
+    top: -10px; /* 線條位於文字正上方 */
     left: 0;
     width: 100px; /* 線條長度固定，不延續到最後 */
     height: 4px;
@@ -43,7 +44,6 @@ body {
     font-style: italic;
     color: black;
     margin: 0;
-    background: none; /* 確保背景僅外框內部 */
 }
 
 /* Heading 3 樣式 */
@@ -53,7 +53,7 @@ body {
     color: black;
     text-decoration: underline;
     text-align: right;
-    margin-top: -20px; /* 向上移動，與黑框靠近 */
+    margin-top: -20px; /* 向上移動，與黑框右側對齊 */
     position: relative;
 }
 
