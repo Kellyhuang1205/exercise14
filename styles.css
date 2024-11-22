@@ -14,19 +14,11 @@ body {
     margin: 0;
     padding: 10px 0;
     text-align: left;
+    text-decoration: upperline;
     text-shadow: 3px 3px #ffcccc; /* 粉色陰影 */
 }
 
-.heading1::before {
-    content: '';
-    position: absolute;
-    top: -14px; /* 線條位於文字正上方 */
-    left: 0;
-    width: 25%; /* 線條固定長度 */
-    height: 4px; /* 線條厚度 */
-    background-color: black; /* 黑色線條 */
-    box-shadow: 3px 3px 0px #ffcccc; /* 添加右下粉色陰影 */
-}
+
 .heading2-container {
     display: block; /* 讓元素變成 block，佔滿父元素的寬度 */
     width: 100%; /* 設置寬度為 100% */
