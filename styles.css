@@ -12,9 +12,19 @@ body {
     color: black;
     text-shadow: 2px 2px 2px #ffcccc; /* 粉色陰影 */
     border-top: 4px solid black; /* 黑色頂部線 */
+    box-shadow: 0 -4px 2px -2px #ffcccc; /* 粉色陰影 */
     padding-top: 10px;
     display: inline-block;
-    margin-bottom: 20px;
+}
+
+/* Heading Container（框線容器） */
+.heading-container {
+    border: 2px solid black; /* 黑色外框 */
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: calc(100% - 40px); /* 延伸框線 */
+    position: relative;
 }
 
 /* Heading 2 樣式 */
@@ -22,10 +32,8 @@ body {
     font-size: 24px;
     font-style: italic;
     color: black;
-    border: 2px solid black; /* 黑色外框 */
     background-color: yellow; /* 黃色背景 */
-    padding: 10px;
-    margin: 20px 0;
+    padding: 5px;
     display: inline-block;
 }
 
@@ -38,4 +46,7 @@ body {
     text-align: right;
     margin: 0;
     margin-top: 20px;
+    position: absolute;
+    right: 10px; /* 靠右 */
+    bottom: 10px;
 }
