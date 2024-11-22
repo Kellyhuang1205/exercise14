@@ -36,9 +36,10 @@ body {
     margin-top: 20px;
     padding: 5px; /* 內部間距 */
     border: 2px solid black; /* 黑框僅包住文字部分 */
-    box-shadow: 4px 4px 0 yellow; /* 黃色框線為黑框外圍 */
+    box-shadow: 0 0 8px 4px yellow; /* 黃色陰影完全包含黑色外框 */
     background-color: white; /* 保持內部為白色 */
 }
+
 
 /* Heading 2 樣式 */
 .heading2 {
